@@ -1,0 +1,104 @@
+property_id,host_name,city,title,base_price,property_type,max_guests,bedrooms,operation,timestamp
+45504,Anthony Jones,New York,Apartment in New York,778.6,Urban Year-Round,4,3,UPDATE,2026-08-20T00:00:00.000+00:00
+50016,Sofia Johnson,Toronto,Luxury Ski in Toronto,178.93,Ski Resorts,9,4,INSERT,2026-08-20T00:00:00.000+00:00
+50028,Ana Martinez,Barcelona,Luxury Ski in Barcelona,146.67,Ski Resorts,7,3,INSERT,2026-08-20T00:00:00.000+00:00
+45653,Daryl Bridges,Phuket,Beach House in Phuket,844.7100219726562,Summer Getaways,6,5,UPDATE,2026-08-20T00:00:00.000+00:00
+50009,David Brown,Paris,Luxury Historical in Paris,416.29,Historical Places,4,2,INSERT,2026-08-20T00:00:00.000+00:00
+386,Rachel Garcia,Cairo,Historic Inn in Cairo,188.27,Historical Places,4,4,UPDATE,2026-08-20T00:00:00.000+00:00
+18087,Brian Frye,Aspen,Lodge in Aspen,689.66,Ski Resorts,6,5,UPDATE,2026-08-20T00:00:00.000+00:00
+40191,Angela Evans,Zermatt,Cabin in Zermatt,888.3699951171875,Ski Resorts,2,2,DELETE,2026-08-20T00:00:00.000+00:00
+50027,David Wilson,Sydney,Luxury Ski in Sydney,158.79,Ski Resorts,5,2,INSERT,2026-08-20T00:00:00.000+00:00
+14828,Kristina Wolf,Aspen,Updated Hotel in Aspen,88.14,Urban Year-Round,10,5,UPDATE,2026-08-20T00:00:00.000+00:00
+27004,John Medina,Lake Tahoe,Apartment in Lake Tahoe,808.4500122070312,Urban Year-Round,9,5,UPDATE,2026-08-20T00:00:00.000+00:00
+50011,Michael Brown,Rome,Luxury Historical in Rome,554.68,Historical Places,6,3,INSERT,2026-08-20T00:00:00.000+00:00
+50022,Emma Davis,Rome,Luxury Summer in Rome,877.32,Summer Getaways,9,4,INSERT,2026-08-20T00:00:00.000+00:00
+50006,Diego Lopez,Paris,Luxury Urban in Paris,468.22,Urban Year-Round,1,1,INSERT,2026-08-20T00:00:00.000+00:00
+11543,Jose Turner,Agra,Historic Inn in Agra,120.91999816894533,Historical Places,11,5,UPDATE,2026-08-20T00:00:00.000+00:00
+6881,Janice Gibbs,Santorini,Beach House in Santorini,794.6300048828125,Summer Getaways,8,2,DELETE,2026-08-20T00:00:00.000+00:00
+50023,David Taylor,Madrid,Luxury Summer in Madrid,391.89,Summer Getaways,10,5,INSERT,2026-08-20T00:00:00.000+00:00
+24213,Sarah Doyle,Xi'an,Castle Stay in Xi'an,96.29000091552734,Historical Places,4,2,UPDATE,2026-08-20T00:00:00.000+00:00
+50002,Carlos Martinez,Berlin,Luxury Historical in Berlin,562.54,Historical Places,3,1,INSERT,2026-08-20T00:00:00.000+00:00
+50021,David Davis,Berlin,Luxury Summer in Berlin,760.41,Summer Getaways,5,2,INSERT,2026-08-20T00:00:00.000+00:00
+11081,Dalton Miles,Aspen,Updated Apartment in Aspen,131.16,Urban Year-Round,10,2,UPDATE,2026-08-20T00:00:00.000+00:00
+50034,David Lopez,Rome,Luxury Historical in Rome,608.04,Historical Places,1,1,INSERT,2026-08-20T00:00:00.000+00:00
+26996,Alexander Jacobs,Lake Tahoe,Hotel in Lake Tahoe,549.9400024414062,Urban Year-Round,10,1,UPDATE,2026-08-20T00:00:00.000+00:00
+45708,Roy Poole,St. Moritz,Updated Lodge in St. Moritz,877.62,Ski Resorts,4,4,UPDATE,2026-08-20T00:00:00.000+00:00
+256,Michael Duke,Abu Dhabi,Updated Hotel in Abu Dhabi,44.63,Urban Year-Round,10,5,UPDATE,2026-08-20T00:00:00.000+00:00
+50037,David Brown,Rome,Luxury Summer in Rome,136.9,Summer Getaways,1,1,INSERT,2026-08-20T00:00:00.000+00:00
+50031,Emma Lopez,New York,Luxury Summer in New York,525.85,Summer Getaways,5,2,INSERT,2026-08-20T00:00:00.000+00:00
+45102,Christopher Padilla,Bath,Castle Stay in Bath,776.030029296875,Historical Places,1,3,UPDATE,2026-08-20T00:00:00.000+00:00
+38461,Luis Burke,Santorini,Villa in Santorini,790.8800048828125,Summer Getaways,4,2,DELETE,2026-08-20T00:00:00.000+00:00
+2429,Dr. Sosa,Beijing,Heritage Hotel in Beijing,643.8699951171875,Historical Places,7,1,DELETE,2026-08-20T00:00:00.000+00:00
+49315,Lauren Sims,Mykonos,Villa in Mykonos,547.8,Summer Getaways,8,2,UPDATE,2026-08-20T00:00:00.000+00:00
+50036,Sofia Brown,New York,Luxury Urban in New York,840.85,Urban Year-Round,5,2,INSERT,2026-08-20T00:00:00.000+00:00
+16526,Carrie Kennedy,Krabi,Updated Beach House in Krabi,344.67,Summer Getaways,8,3,UPDATE,2026-08-20T00:00:00.000+00:00
+50015,Diego Wilson,Tokyo,Luxury Ski in Tokyo,525.1,Ski Resorts,9,4,INSERT,2026-08-20T00:00:00.000+00:00
+50030,Sofia Johnson,Berlin,Luxury Ski in Berlin,814.72,Ski Resorts,10,5,INSERT,2026-08-20T00:00:00.000+00:00
+50033,David Davis,Barcelona,Luxury Urban in Barcelona,499.76,Urban Year-Round,9,4,INSERT,2026-08-20T00:00:00.000+00:00
+50041,Diego Wilson,London,Luxury Historical in London,542.6,Historical Places,2,1,INSERT,2026-08-20T00:00:00.000+00:00
+50043,Lucas Wilson,Rome,Luxury Historical in Rome,519.24,Historical Places,4,2,INSERT,2026-08-20T00:00:00.000+00:00
+50008,Michael Davis,Madrid,Luxury Ski in Madrid,451.96,Ski Resorts,1,1,INSERT,2026-08-20T00:00:00.000+00:00
+37113,Kara Hunter,Zermatt,Chalet in Zermatt,676.8300170898438,Ski Resorts,3,1,UPDATE,2026-08-20T00:00:00.000+00:00
+16927,Elizabeth Fisher,Lake Tahoe,Updated Hotel in Lake Tahoe,262.8,Urban Year-Round,3,3,UPDATE,2026-08-20T00:00:00.000+00:00
+50035,Elena Wilson,Toronto,Luxury Ski in Toronto,699.89,Ski Resorts,1,1,INSERT,2026-08-20T00:00:00.000+00:00
+30511,Jessica Mccoy,Osaka,Serviced Residence in Osaka,94.63999938964844,Urban Year-Round,9,2,UPDATE,2026-08-20T00:00:00.000+00:00
+50005,Michael Brown,Sydney,Luxury Urban in Sydney,192.33,Urban Year-Round,2,1,INSERT,2026-08-20T00:00:00.000+00:00
+8886,Travis Harris,Phuket,Villa in Phuket,434.2999877929688,Summer Getaways,7,4,UPDATE,2026-08-20T00:00:00.000+00:00
+50020,Ana Lopez,Barcelona,Luxury Historical in Barcelona,889.97,Historical Places,9,4,INSERT,2026-08-20T00:00:00.000+00:00
+32953,Terry Bailey,Zermatt,Lodge in Zermatt,381.92,Ski Resorts,5,4,UPDATE,2026-08-20T00:00:00.000+00:00
+50025,Sofia Lopez,New York,Luxury Summer in New York,391.58,Summer Getaways,4,2,INSERT,2026-08-20T00:00:00.000+00:00
+3623,Margaret Stafford,Munich,Serviced Residence in Munich,359.26,Urban Year-Round,8,2,UPDATE,2026-08-20T00:00:00.000+00:00
+33286,Kelly Goodman,Amalfi,Bungalow in Amalfi,709.1300048828125,Summer Getaways,5,4,DELETE,2026-08-20T00:00:00.000+00:00
+5275,Jessica Jones,St. Moritz,Cabin in St. Moritz,689.27001953125,Ski Resorts,11,5,UPDATE,2026-08-20T00:00:00.000+00:00
+4091,Jacob Vincent,Aspen,Updated Apartment in Aspen,130.89,Urban Year-Round,6,3,UPDATE,2026-08-20T00:00:00.000+00:00
+4392,Harry Woods,Chamonix,Lodge in Chamonix,456.2699890136719,Ski Resorts,10,5,DELETE,2026-08-20T00:00:00.000+00:00
+31171,Michael Beck,Florence,Bungalow in Florence,979.219970703125,Summer Getaways,3,2,DELETE,2026-08-20T00:00:00.000+00:00
+35329,Angela Williams,Luxor,Castle Stay in Luxor,914.22998046875,Historical Places,5,3,UPDATE,2026-08-20T00:00:00.000+00:00
+50044,Laura Johnson,Madrid,Luxury Historical in Madrid,873.52,Historical Places,2,1,INSERT,2026-08-20T00:00:00.000+00:00
+6907,William Lawrence,Munich,Updated Serviced Residence in Munich,72.71,Urban Year-Round,2,5,UPDATE,2026-08-20T00:00:00.000+00:00
+22119,Michelle Byrd,Sardinia,Beach House in Sardinia,414.3699951171875,Summer Getaways,7,4,DELETE,2026-08-20T00:00:00.000+00:00
+50018,Ana Johnson,Barcelona,Luxury Historical in Barcelona,744.4,Historical Places,1,1,INSERT,2026-08-20T00:00:00.000+00:00
+41472,Colin Cardenas,Agra,Castle Stay in Agra,211.72999572753903,Historical Places,2,2,DELETE,2026-08-20T00:00:00.000+00:00
+30252,Ms. DVM,London,Heritage Hotel in London,67.13,Historical Places,1,2,UPDATE,2026-08-20T00:00:00.000+00:00
+50040,Laura Martinez,Barcelona,Luxury Urban in Barcelona,187.74,Urban Year-Round,10,5,INSERT,2026-08-20T00:00:00.000+00:00
+10471,Luis Cline,Byron Bay,Beach House in Byron Bay,586.0,Summer Getaways,2,2,UPDATE,2026-08-20T00:00:00.000+00:00
+33140,Peter Rose,Florence,Villa in Florence,503.93,Summer Getaways,8,3,UPDATE,2026-08-20T00:00:00.000+00:00
+4116,Andrea Brock,Santorini,Updated Bungalow in Santorini,215.16,Summer Getaways,9,2,UPDATE,2026-08-20T00:00:00.000+00:00
+21965,Karen Daniels,Ibiza,Updated Bungalow in Ibiza,60.61,Summer Getaways,5,1,UPDATE,2026-08-20T00:00:00.000+00:00
+50004,Carlos Smith,Berlin,Luxury Historical in Berlin,117.86,Historical Places,6,3,INSERT,2026-08-20T00:00:00.000+00:00
+50017,Laura Johnson,Rome,Luxury Ski in Rome,438.44,Ski Resorts,9,4,INSERT,2026-08-20T00:00:00.000+00:00
+50010,Ana Garcia,Barcelona,Luxury Summer in Barcelona,556.91,Summer Getaways,3,1,INSERT,2026-08-20T00:00:00.000+00:00
+12914,Diana Price,Berlin,Hotel in Berlin,667.68,Urban Year-Round,5,4,UPDATE,2026-08-20T00:00:00.000+00:00
+42574,Richard Clark,Florence,Bungalow in Florence,300.3099975585937,Summer Getaways,8,3,DELETE,2026-08-20T00:00:00.000+00:00
+34247,Ryan Rojas,St. Moritz,Lodge in St. Moritz,432.8599853515625,Ski Resorts,10,1,UPDATE,2026-08-20T00:00:00.000+00:00
+24705,Mary Benjamin,Abu Dhabi,Updated Serviced Residence in Abu Dhabi,427.29,Urban Year-Round,8,1,UPDATE,2026-08-20T00:00:00.000+00:00
+38629,Michelle Morales,Cairo,Heritage Hotel in Cairo,606.4400024414062,Historical Places,10,4,DELETE,2026-08-20T00:00:00.000+00:00
+25814,Laura Decker,Mykonos,Beach House in Mykonos,693.77001953125,Summer Getaways,11,2,UPDATE,2026-08-20T00:00:00.000+00:00
+46882,Michael Richardson,Ibiza,Beach House in Ibiza,569.0399780273438,Summer Getaways,5,4,DELETE,2026-08-20T00:00:00.000+00:00
+50007,Diego Brown,Paris,Luxury Summer in Paris,124.77,Summer Getaways,6,3,INSERT,2026-08-20T00:00:00.000+00:00
+50039,Diego Johnson,London,Luxury Summer in London,835.82,Summer Getaways,8,4,INSERT,2026-08-20T00:00:00.000+00:00
+50045,Lucas Garcia,Madrid,Luxury Summer in Madrid,657.78,Summer Getaways,9,4,INSERT,2026-08-20T00:00:00.000+00:00
+33471,Kylie Adams,Abu Dhabi,Apartment in Abu Dhabi,979.99,Urban Year-Round,10,1,UPDATE,2026-08-20T00:00:00.000+00:00
+148,Erin Jensen,Cairo,Historic Inn in Cairo,555.43,Historical Places,9,5,UPDATE,2026-08-20T00:00:00.000+00:00
+50013,Elena Garcia,Rome,Luxury Summer in Rome,840.42,Summer Getaways,8,4,INSERT,2026-08-20T00:00:00.000+00:00
+50001,Sofia Garcia,Rome,Luxury Historical in Rome,444.86,Historical Places,9,4,INSERT,2026-08-20T00:00:00.000+00:00
+22603,Renee Vasquez,Courchevel,Cabin in Courchevel,247.6499938964844,Ski Resorts,9,3,DELETE,2026-08-20T00:00:00.000+00:00
+50014,Michael Brown,Madrid,Luxury Historical in Madrid,543.35,Historical Places,9,4,INSERT,2026-08-20T00:00:00.000+00:00
+50026,David Brown,Madrid,Luxury Summer in Madrid,419.03,Summer Getaways,5,2,INSERT,2026-08-20T00:00:00.000+00:00
+8690,Michael Montoya,Florence,Heritage Hotel in Florence,489.04,Historical Places,2,5,UPDATE,2026-08-20T00:00:00.000+00:00
+50024,Ana Garcia,Rome,Luxury Summer in Rome,407.56,Summer Getaways,7,3,INSERT,2026-08-20T00:00:00.000+00:00
+50042,Lucas Brown,Berlin,Luxury Urban in Berlin,151.13,Urban Year-Round,7,3,INSERT,2026-08-20T00:00:00.000+00:00
+16192,Joseph Martin,Innsbruck,Updated Cabin in Innsbruck,796.53,Ski Resorts,8,2,UPDATE,2026-08-20T00:00:00.000+00:00
+2251,Catherine Blankenship,Mallorca,Bungalow in Mallorca,376.7900085449219,Summer Getaways,4,1,DELETE,2026-08-20T00:00:00.000+00:00
+5559,Taylor Adams,Tokyo,Apartment in Tokyo,169.67,Urban Year-Round,5,5,UPDATE,2026-08-20T00:00:00.000+00:00
+50019,Laura Martinez,Toronto,Luxury Historical in Toronto,172.34,Historical Places,6,3,INSERT,2026-08-20T00:00:00.000+00:00
+41706,Johnny English,Byron Bay,Villa in Byron Bay,175.75999450683594,Summer Getaways,2,1,DELETE,2026-08-20T00:00:00.000+00:00
+50032,Sofia Garcia,Tokyo,Luxury Urban in Tokyo,116.93,Urban Year-Round,8,4,INSERT,2026-08-20T00:00:00.000+00:00
+50003,David Wilson,Berlin,Luxury Summer in Berlin,738.9,Summer Getaways,1,1,INSERT,2026-08-20T00:00:00.000+00:00
+50029,Carlos Taylor,Sydney,Luxury Ski in Sydney,191.35,Ski Resorts,10,5,INSERT,2026-08-20T00:00:00.000+00:00
+38951,Carly Green,Whistler,Cabin in Whistler,156.99000549316406,Ski Resorts,5,1,UPDATE,2026-08-20T00:00:00.000+00:00
+50038,Elena Smith,New York,Luxury Urban in New York,329.03,Urban Year-Round,3,1,INSERT,2026-08-20T00:00:00.000+00:00
+50012,Diego Rodriguez,Tokyo,Luxury Summer in Tokyo,467.35,Summer Getaways,3,1,INSERT,2026-08-20T00:00:00.000+00:00
+99001,Test Drop Price,Madrid,Invalid Price Flat,0,Urban Year-Round,2,1,INSERT,2026-08-20T00:00:00.000+00:00
+99002,Test Warn Type,Barcelona,Missing Type Flat,150.00,,4,2,INSERT,2026-08-20T00:00:00.000+00:00
+99003,Test Valid Row,Sevilla,Valid Flat,200.00,Historical Places,3,1,INSERT,2026-08-20T00:00:00.000+00:00

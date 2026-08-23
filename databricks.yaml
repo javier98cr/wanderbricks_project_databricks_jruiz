@@ -1,0 +1,24 @@
+bundle:
+  name: wanderbricks_pipeline
+
+variables:
+  catalog:
+    description: "Target catalog"
+  student_name:
+    default: "jruiz"
+  schema:
+    default: "wanderbricks_${bundle.target}"
+
+targets:
+  development:
+    mode: development
+    default: true
+    variables:
+      catalog: dab_${var.student_name}_dev
+  production:
+    mode: production
+    variables:
+      catalog: dab_${var.student_name}_prod
+
+include:
+  - resources/*.yml
