@@ -11,21 +11,32 @@ resources:
         - task_key: SDP_Bookings
           pipeline_task:
             pipeline_id: ${resources.pipelines.wanderbricks_pipeline.id}
-        - task_key: check_gold_rows
+        - task_key: create_metric_view
           depends_on:
             - task_key: SDP_Bookings
+          sql_task:
+            file:
+              path: ../src/metric_views/create_revenue_metrics_view.sql
+            warehouse_id: ${var.warehouse_id}
+            parameters:
+              catalog: ${var.catalog}
+              schema: ${var.schema}
+              student_name: ${var.student_name}
+        - task_key: check_metric_view_rows
+          depends_on:
+            - task_key: create_metric_view
           notebook_task:
-            notebook_path: ../src/checks/check_gold_rows.py
+            notebook_path: ../src/checks/check_metric_view_rows.py
             base_parameters:
               catalog: ${var.catalog}
               schema: ${var.schema}
               student_name: ${var.student_name}
         - task_key: validate_row_count
           depends_on:
-            - task_key: check_gold_rows
+            - task_key: check_metric_view_rows
           condition_task:
             op: GREATER_THAN_OR_EQUAL
-            left: "{{tasks.check_gold_rows.values.row_count}}"
+            left: "{{tasks.check_metric_view_rows.values.row_count}}"
             right: "{{job.parameters.min_row_threshold}}"
         - task_key: refresh_dashboard
           depends_on:
