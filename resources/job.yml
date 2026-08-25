@@ -52,3 +52,4 @@ resources:
         - name: min_row_threshold
           default: "5"
       performance_target: PERFORMANCE_OPTIMIZED
+      
