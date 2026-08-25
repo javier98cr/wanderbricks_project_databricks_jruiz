@@ -8,6 +8,9 @@ variables:
     default: "jruiz"
   schema:
     default: "wanderbricks_${bundle.target}"
+  warehouse_id:
+    description: "SQL warehouse for gold checks and dashboard"
+    default: "2f7ead5b15d81a10"
 
 targets:
   development:

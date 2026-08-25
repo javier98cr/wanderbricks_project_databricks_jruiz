@@ -1,0 +1,43 @@
+resources:
+  jobs:
+    Orchester_wanderbricks_project:
+      name: Job - Wanderbricks Project - ${var.student_name}
+      email_notifications:
+        on_success:
+          - jruizh9813@gmail.com
+        on_failure:
+          - jruizh9813@gmail.com
+      tasks:
+        - task_key: SDP_Bookings
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.wanderbricks_pipeline.id}
+        - task_key: check_gold_rows
+          depends_on:
+            - task_key: SDP_Bookings
+          notebook_task:
+            notebook_path: ../src/checks/check_gold_rows.py
+            base_parameters:
+              catalog: ${var.catalog}
+              schema: ${var.schema}
+              student_name: ${var.student_name}
+        - task_key: validate_row_count
+          depends_on:
+            - task_key: check_gold_rows
+          condition_task:
+            op: GREATER_THAN_OR_EQUAL
+            left: "{{tasks.check_gold_rows.values.row_count}}"
+            right: "{{job.parameters.min_row_threshold}}"
+        - task_key: refresh_dashboard
+          depends_on:
+            - task_key: validate_row_count
+              outcome: "true"
+          dashboard_task:
+            subscription: {}
+            warehouse_id: ${var.warehouse_id}
+            dashboard_id: ${resources.dashboards.wanderbricks_dashboard.id}
+      queue:
+        enabled: true
+      parameters:
+        - name: min_row_threshold
+          default: "5"
+      performance_target: PERFORMANCE_OPTIMIZED

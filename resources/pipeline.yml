@@ -1,0 +1,22 @@
+resources:
+  pipelines:
+    wanderbricks_pipeline:
+      name: wanderbricks_pipeline_${var.student_name}
+      catalog: ${var.catalog}
+      target: ${var.schema}
+      serverless: true
+      event_log:
+        catalog: ${var.catalog}
+        schema: ${var.schema}
+        name: event_log_${var.student_name}
+      libraries:
+        - glob:
+            include: ../src/bronze/**
+        - glob:
+            include: ../src/silver/**
+        - glob:
+            include: ../src/gold/**
+      configuration:
+        student_name: ${var.student_name}
+        catalog: ${var.catalog}
+        schema: ${var.schema}

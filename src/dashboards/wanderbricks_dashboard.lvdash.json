@@ -1,0 +1,143 @@
+{
+  "datasets": [
+    {
+      "name": "b4683fc7",
+      "displayName": "revenue_metrics_jruiz",
+      "asset_name": "testing_proj.default.revenue_metrics_jruiz"
+    }
+  ],
+  "pages": [
+    {
+      "name": "117c0002",
+      "displayName": "Untitled page",
+      "layout": [
+        {
+          "widget": {
+            "name": "afdd23a6",
+            "multilineTextboxSpec": {
+              "lines": [
+                "# <span style=\"text-align:center;display:block;\">Dashboard AI/BI</span>"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "c32885b6",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "b4683fc7",
+                  "fields": [
+                    {
+                      "name": "monthly(booking_month)",
+                      "expression": "DATE_TRUNC(\"MONTH\", `booking_month`)"
+                    },
+                    {
+                      "name": "measure(total_revenue)",
+                      "expression": "MEASURE(`total_revenue`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "line",
+              "encodings": {
+                "x": {
+                  "fieldName": "monthly(booking_month)",
+                  "scale": {
+                    "type": "temporal"
+                  }
+                },
+                "y": {
+                  "fieldName": "measure(total_revenue)",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 2,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "3076ed54",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "b4683fc7",
+                  "fields": [
+                    {
+                      "name": "measure(total_bookings)",
+                      "expression": "MEASURE(`total_bookings`)"
+                    },
+                    {
+                      "name": "city",
+                      "expression": "`city`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "pie",
+              "encodings": {
+                "angle": {
+                  "fieldName": "measure(total_bookings)",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "city",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main_query"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 2,
+            "width": 6,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "widgetHeaderAlignment": "ALIGNMENT_UNSPECIFIED"
+    },
+    "applyModeEnabled": false
+  }
+}
