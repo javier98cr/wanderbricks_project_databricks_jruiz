@@ -50,6 +50,6 @@ resources:
         enabled: true
       parameters:
         - name: min_row_threshold
-          default: "5"
+          default: "100"
       performance_target: PERFORMANCE_OPTIMIZED
       
