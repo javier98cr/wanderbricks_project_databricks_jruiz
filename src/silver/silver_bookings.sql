@@ -14,7 +14,8 @@ SELECT DISTINCT
   guests_count,
   CAST(total_amount AS DECIMAL(10,2)) AS total_amount,
   LOWER(TRIM(status)) AS status,
-  DATEDIFF(CAST(check_out AS DATE), CAST(check_in AS DATE)) AS nights_stayed
+  DATEDIFF(CAST(check_out AS DATE), CAST(check_in AS DATE)) AS nights_stayed,
+  ROUND(CAST(total_amount AS DECIMAL(10,2)) / NULLIF(guests_count, 0), 2) AS price_per_guest
 FROM STREAM(bronze_bookings_${student_name})
 WHERE booking_id IS NOT NULL
   AND total_amount IS NOT NULL
