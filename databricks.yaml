@@ -21,7 +21,7 @@ targets:
   production:
     mode: production
     workspace:
-      root_path: /Workspace/Users/jruizh9813@gmail.com/.bundle/${bundle.name}/${bundle.target}
+      root_path: /Workspace/Production/.bundle/${bundle.name}/${bundle.target}
     variables:
       catalog: dab_${var.student_name}_prod
 
