@@ -1,0 +1,8 @@
+resources:
+  dashboards:
+    wanderbricks_dashboard:
+      display_name: "Wanderbricks Dashboard - ${var.student_name}"
+      file_path: ../src/dashboards/wanderbricks_dashboard.lvdash.json
+      warehouse_id: ${var.warehouse_id}
+      dataset_catalog: ${var.catalog}
+      dataset_schema: ${var.schema}
