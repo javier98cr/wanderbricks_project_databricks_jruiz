@@ -1,3 +1,7 @@
+-- Gold: agregaciones de negocio, uniendo el hecho con la versión vigente de la dimensión SCD2
+
+--Materialized View que une el hecho con la versión vigente de la dimensión 
+    --agregando ingreso, cantidad de reservas y valor promedio de reserva por tipo de propiedad, ciudad y mes.
 CREATE OR REFRESH MATERIALIZED VIEW gold_revenue_by_property_${student_name}
 COMMENT 'Ingreso agregado por tipo de propiedad y ciudad, usando la versión vigente de properties (SCD2)'
 AS
@@ -12,5 +16,5 @@ SELECT
 FROM silver_bookings_${student_name} b
 JOIN silver_properties_${student_name} p
   ON b.property_id = p.property_id
-WHERE p.__END_AT IS NULL
+WHERE p.__END_AT IS NULL -- para obtener el registro mas nuevo
 GROUP BY p.property_type, p.city, DATE_TRUNC('month', b.check_in);
