@@ -119,8 +119,14 @@ databricks bundle run Orchester_wanderbricks_project -t production
 El proyecto usa dos branches (`dev` y `main`) y dos GitHub Environments (`dev` y `prod`), cada uno con sus propios secrets (`DATABRICKS_HOST`, `DATABRICKS_CLIENT_ID`, `DATABRICKS_CLIENT_SECRET`) correspondientes a un Service Principal distinto por ambiente.
  
 - **Hacia `dev`:** un Pull Request dispara `databricks bundle validate -t development` como check obligatorio. Al hacer merge, un job separado corre `deploy` + `run` contra `dab_jruiz_dev`.
+<img width="668" height="816" alt="image" src="https://github.com/user-attachments/assets/881b375b-7f61-420f-a65d-8a9e0554d74e" />
+
+
 - **Hacia `main`:** un Pull Request desde `dev` dispara `databricks bundle validate -t production`, mismo Environment `prod` — por lo que incluso el validate requiere aprobación de un revisor. Al hacer merge, un segundo gate de aprobación protege el `deploy` + `run` contra `dab_jruiz_prod`.
 Ver el diagrama de arquitectura en el documento de decisiones para el detalle visual de ambos flujos.
+
+<img width="515" height="779" alt="image" src="https://github.com/user-attachments/assets/78291a4f-7aae-4ae6-ad00-a6b8c10e4c70" />
+
  
 ## Gobernanza (Unity Catalog)
  
