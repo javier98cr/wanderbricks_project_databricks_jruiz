@@ -1,3 +1,4 @@
+-- Bronze: ingesta incremental de los archivos CDC sintéticos de properties
 CREATE OR REFRESH STREAMING TABLE bronze_properties_${student_name}
 COMMENT 'Bronze layer: Raw properties CDC data'
 AS SELECT *,

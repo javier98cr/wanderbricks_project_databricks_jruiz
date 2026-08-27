@@ -1,3 +1,9 @@
+-- Silver del hecho: limpieza, tipado, dedup y columnas derivadas como nights_stayed (noches de estadía)
+
+-- valid_booking_id con FAIL UPDATE: una reserva con un id nulo es un error
+-- valid_total_amount con DROP ROW: una reserva con monto ≤ 0 es un dato corrupto sin valor de negocio recuperable, no aporta nada a las métricas de revenue, mejor descartarla.
+-- valid_dates sin ON VIOLATION (comportamiento warn): un check_out anterior o igual a check_in es raro pero no invalida completamente el registro 
+
 CREATE OR REFRESH STREAMING TABLE silver_bookings_${student_name} (
   CONSTRAINT valid_booking_id EXPECT (booking_id IS NOT NULL) ON VIOLATION FAIL UPDATE,
   CONSTRAINT valid_total_amount EXPECT (total_amount > 0) ON VIOLATION DROP ROW,
@@ -21,3 +27,5 @@ WHERE booking_id IS NOT NULL
   AND total_amount IS NOT NULL
   AND check_in IS NOT NULL
   AND check_out IS NOT NULL;
+
+  
